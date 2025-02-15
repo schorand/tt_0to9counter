@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+4-bit counter which counts upwards on every clock cycle, as long as IN0 (Enable) is high. If Enable is pulled low the counter keeps its current value.
+The counter counts from 0 to 9 and then automatically restarts at 0. The counter can also be reset by the high active reset.
+The 4 bit counter value is output at the outputs OUT0-OUT3.
 
 ## How to test
 
-Explain how to use your project
+
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
